@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Playfair+Display:400,400i,700,700i,900|Ubuntu:300');
+
+*{
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Playfair Display', serif;
+	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Inconsolata', monospace;
+}
+/* Header Section Start */
+header{
+	text-transform: uppercase;
+	width: 100%;
+}
+.container{
+	width: 1300px;
+	margin-top: 50px;
+	float: none;
+}
+.container-fluid{
+	width: 1140px;
+	overflow: hidden;
+}
+.brand-name{
+	width: 30%;
+	float: left;
+}
+.brand-name h1{
+	font-family: 'Inconsolata', monospace;
+	font-weight: 300;
+	color: #000000;
+	cursor: pointer;
+	transform: translateX(-300px);
+    animation: anims 2s forwards;
+    transition: .3s ease all;
+}
+.nav{
+	width: 70%;
+	float: left;
+}
+ul{
+	list-style: none;
+	float: right;
+	margin-top: 10px;
+}
+ul li{
+	display: inline-block;
+	margin-left: 50px;
+	transform: translateX(700px);
+    animation: anim 2s forwards;
+    transition: .3s ease all;
+}
+.nav ul li a{
+	font-family: 'Playfair Display', serif;
+	font-size: 15px;
+	color: #626262;
+	text-decoration: none;
+	transition: ease 0.5s all;
+	padding: 5px 10px;
+	border: 3px solid white;
+}
+.nav ul li a:hover{
+	font-size: 15px;
+	color: #000000;
+	border-left: 3px solid #343A40;
+	border-radius: 3px;
+	box-shadow: 10px 10px 10px #ededed;
+}
+/* Header Section Start */
+
+/* Banner Section Start */
+.banner-img{
+	width: 100%;
+	height: 100%;
+	border: none;
+	padding: 50px 0;
+}
+.post{
+	overflow: hidden;
+	width: 100%;
+}
+.blockquote{
+	color: #bababa;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+/* Header Section End */
+
+/* Post Section Start */
+.title{
+	color: #626262;
+	font-size: 23px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 300;
+	margin-top: 25px;
+}
+.detail{
+	font-family: 'Playfair Display', serif;
+    font-size: 13px;
+    padding: 25px 0;
+}
+.port-two{
+	width: 50%;
+	float: left;
+	padding: 10px 50px 0 0;
+}
+.port-one{
+	margin: 0 auto;
+	width: 100%;
+}
+.one{
+	margin-right: -50px;
+}
+.img-folio{
+	width: 100%;
+	padding-top: 80px;
+}
+/* Post Section End */
+
+/* Contact Section Start */
+.contact-one{
+	margin: 80px auto;
+	overflow: hidden;
+	background-color: #f0f0f0;
+	padding: 35px 0 60px 0;
+}
+.contact-one h3{
+	font-size: 23px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 300;
+	margin: 25px auto;
+	text-align: center;
+}
+.email{
+	height: 50px;
+	width: 200px;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid #343A40;
+	padding-left: 5px;
+	background: transparent;
+}
+.contact-one div{
+	text-align: center;
+}
+/* Contact Section Start */
+
+/* Footer Section Start */
+.fa-paper-plane{
+	cursor: pointer;
+}
+.btn-default{
+	background: transparent;
+    border: 1px solid #bababa;
+    padding: 14px 29px;
+    margin: 0 auto;
+    display: block;
+    font-size: 17px;
+    font-family: 'Playfair Display', serif;
+    outline: none;
+    margin-bottom: 180px;
+    color: #626262;
+    transition: .5s ease all;
+}
+.two{
+	margin-bottom: 80px;
+}
+.btn-default:hover{
+	background-color: #343A40;
+	color: #fff;
+	box-shadow: 0 10px 10px #ededed;
+	border-radius: 3px;
+	cursor: pointer;
+}
+footer{
+	background-color: #f0f0f0;
+	width: 100%;
+	overflow: hidden;
+	padding: 30px 0;
+}
+.left, .right{
+	font-family: 'Playfair Display', serif;
+	display: inline-block;
+	width: 50%;
+	float: left;
+}
+.fab{
+	color: #343A40;
+	transition: .5s ease all;
+}
+.icon:hover .fab{
+	color: #fff;
+	border-radius: 3px;
+}
+.left ul{
+float: left;
+}
+.left ul li{
+	cursor: pointer;
+}
+.right ul{
+	float: right;
+}
+.right ul li{
+	margin-left: 10px;
+	cursor: pointer;
+}
+.icon{
+	height: 30px;
+	width: 30px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	transition: .5s ease all;
+}
+.icon:hover{
+	background-color: #343A40;
+	border-radius: 3px;
+}
+/* Footer Section Start */
+
+/* Animation */
+@keyframes anim {
+    from{ }
+    to{ transform: translateX(0);}
+}
+.nav ul li:nth-child(1){
+    animation-delay: .3s;
+}
+.nav ul li:nth-child(2){
+    animation-delay: .6s;
+}
+.nav ul li:nth-child(3){
+    animation-delay: .9s;
+}
+.nav ul li:nth-child(4){
+    animation-delay: 1.2s;
+}
+@keyframes anims {
+    from{ }
+    to{ transform: translateX(0);}
+}
