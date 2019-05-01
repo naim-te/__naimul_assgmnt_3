@@ -101,6 +101,9 @@ ul li{
     font-size: 13px;
     padding: 25px 0;
 }
+p.detail{
+	line-height: 25px;
+}
 .port-two{
 	width: 50%;
 	float: left;
